@@ -1,0 +1,21 @@
+bookdown::gitbook:
+  css: css/style_gitbook.css
+  lib_dir: assets
+  split_by: chapter
+  number_sections: no
+  config:
+    toc:
+      collapse: none
+      scroll_highlight: yes
+      before: |
+          <li><a href="./">The Adventures of Vernon Vickies</a></li> 
+      after: null
+    toolbar:
+      position: fixed
+    edit : null
+    download: null
+    search: yes
+    fontsettings: null
+    sharing: null
+    info: no
+  
