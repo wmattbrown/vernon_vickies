@@ -3,9 +3,9 @@ title: "The Adventures of Vernon Vickies"
 subtitle: "A tale of exciting accidents"
 date: "*<span style='font-size:.7em'>Last updated: `r Sys.Date()`</span>*"
 site: "bookdown::bookdown_site"
-favicon: "media/d20c.ico"
-cover-image: media/cover.png
-description: This is the journal of a amazing, acrobatic, astute, and awesome adventurer
+favicon: "media/favicon/vernon_head_no_ears.ico"
+cover-image: media/vernon_med.png
+description: This is the journal of a amazing, acrobatic, astute, and awesome adventurer known as Vernon Vickies, warlock extraordinaire.
 ---
 
 ```{r include = FALSE}
@@ -19,8 +19,9 @@ library(kableExtra)
 
 This is the journal of Vernon Vickies, a Verdan Warlock extraordinaire.
 
+<!--
 <a href = "media/vernon.png" target="_blank"><img src="media/vernon_thumb.png"></a> 
-
+-->
 
 
 ```{r echo=FALSE}
