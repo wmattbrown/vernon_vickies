@@ -49,7 +49,11 @@ andrei <- set_player(player = "Andrei",
                       character = "Iankul Duskwalker, archer, elf",
                       notes = "Found in a slaver wagon, kind of like me. Seems like a reliable fellow.")
 
-player_stats <- Reduce(dplyr::bind_rows, list(willy, alex, fetwi, phil, mohamed, andrei))
+hicham <- set_player(player = "Hicham",
+                     character = "Ryker, cleric, human",
+                     notes = "Found burried/cucooned in the underdark near the Fog Fjord while searching for the source of the fog.") 
+
+player_stats <- Reduce(dplyr::bind_rows, list(willy, alex, fetwi, phil, mohamed, andrei, hicham))
 
 knitr::kable(player_stats) %>% 
   kable_styling("striped", full_width = FALSE) 
