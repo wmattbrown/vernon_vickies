@@ -10,7 +10,7 @@ bookdown::gitbook:
       before: |
         <div style="text-align: center;">
           <li><a href="./">The Adventures of Vernon Vickies</a></li> 
-          <li class="toc-logo"><img src="media/vernon_head_short_75.png"></li>
+          <li class="toc-logo"><img src="media/imp_1_tiny.png"></li>
         </div>
       after: null
     toolbar:

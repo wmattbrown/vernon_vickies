@@ -3,7 +3,7 @@ title: "The Adventures of Vernon Vickies"
 subtitle: "A tale of exciting accidents"
 date: "*<span style='font-size:.7em'>Last updated: `r Sys.Date()`</span>*"
 site: "bookdown::bookdown_site"
-favicon: "media/favicon/vernon_head_no_ears.ico"
+favicon: "media/vernon_head_no_ears.ico"
 cover-image: media/vernon_med.png
 description: This is the journal of a amazing, acrobatic, astute, and awesome adventurer known as Vernon Vickies, warlock extraordinaire.
 ---
